@@ -1,0 +1,41 @@
+{
+	"name": "cli-sbx",
+	"description": "A sandbox for testing CLIs",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"cli-sbx": "index.js"
+	},
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais/"
+	},
+	"keywords": [
+		"cli-sbx",
+		"Ahmad Awais"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"blessed": "^0.1.81",
+		"blessed-contrib": "^4.8.20",
+		"chalk": "^4.1.0",
+		"cli-alerts": "^1.2.1",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.0",
+		"cli-meow-help": "^2.0.1",
+		"cli-welcome": "^2.2.1",
+		"figlet": "^1.5.0",
+		"meow": "^7.0.1",
+		"progress-estimator": "^0.3.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	}
+}

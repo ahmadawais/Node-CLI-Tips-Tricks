@@ -1,0 +1,25 @@
+{
+	"name": "awais",
+	"version": "2.1.0",
+	"description": "Get to know Awais via `npx awais`.",
+	"bin": {
+		"awais": "index.js"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"cli-welcome": "^2.2.0"
+	},
+	"keywords": [
+		"ahmad awais",
+		"ahmad",
+		"awais"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"repository": "ahmadawais/awais",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais"
+	}
+}

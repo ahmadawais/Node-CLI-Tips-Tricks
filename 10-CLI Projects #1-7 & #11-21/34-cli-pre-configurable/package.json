@@ -1,0 +1,42 @@
+{
+	"name": "cli-pre-configurable",
+	"description": "CLI that can be pre-configured with an rc or config file",
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": {
+		"cli-pre-configurable": "index.js"
+	},
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais/"
+	},
+	"keywords": [
+		"cli-pre-configurable",
+		"Ahmad Awais"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"cli-alerts": "^1.2.1",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.0",
+		"cli-meow-help": "^2.0.1",
+		"cli-welcome": "^2.2.1",
+		"cosmiconfig": "^6.0.0",
+		"meow": "^7.0.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	},
+	"cli-pre-configurable": {
+		"name": "Awais",
+		"twitter": "https://twitter.com/MrAhmadAwais/"
+	}
+}

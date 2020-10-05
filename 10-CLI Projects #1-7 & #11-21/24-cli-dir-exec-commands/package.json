@@ -1,0 +1,11 @@
+{
+	"name": "@ahmadawais/dir",
+	"version": "0.0.1",
+	"bin": {
+		"dir": "index.js"
+	},
+	"dependencies": {
+		"execa": "^4.0.2",
+		"shelljs": "^0.8.4"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"name": "cli-graphs",
+	"description": "CLI with graphs and charts",
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": {
+		"cli-graphs": "index.js"
+	},
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais/"
+	},
+	"keywords": [
+		"cli-graphs",
+		"Ahmad Awais"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"blessed": "^0.1.81",
+		"blessed-contrib": "^4.8.20",
+		"chalk": "^4.1.0",
+		"cli-alerts": "^1.2.1",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.0",
+		"cli-meow-help": "^2.0.1",
+		"cli-welcome": "^2.2.1",
+		"meow": "^7.0.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	}
+}

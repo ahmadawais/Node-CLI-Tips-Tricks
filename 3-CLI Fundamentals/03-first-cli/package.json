@@ -1,0 +1,7 @@
+{
+	"name": "awais",
+	"version": "1.0.0",
+	"bin": {
+		"awais": "index.js"
+	}
+}

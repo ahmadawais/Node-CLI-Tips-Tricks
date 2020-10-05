@@ -1,0 +1,41 @@
+{
+	"name": "cli-img",
+	"description": "CLI to resize and optimize images",
+	"version": "0.0.1",
+	"license": "MIT",
+	"bin": {
+		"cli-img": "index.js",
+		"img": "index.js"
+	},
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais/"
+	},
+	"keywords": [
+		"cli-img",
+		"Ahmad Awais"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"cli-alerts": "^1.2.1",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.0",
+		"cli-meow-help": "^2.0.1",
+		"cli-welcome": "^2.2.1",
+		"globby": "^11.0.1",
+		"meow": "^7.0.1",
+		"ora": "^4.0.4",
+		"resize-optimize-images": "^1.1.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	}
+}

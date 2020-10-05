@@ -1,0 +1,10 @@
+{
+	"name": "awais",
+	"version": "1.1.0",
+	"bin": {
+		"awais": "index.js"
+	},
+	"dependencies": {
+		"clear-any-console": "^1.16.0"
+	}
+}

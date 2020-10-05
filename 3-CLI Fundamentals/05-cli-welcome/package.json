@@ -1,0 +1,11 @@
+{
+	"name": "awais",
+	"version": "2.0.1",
+	"description": "Get to know Awais via `npx awais`.",
+	"bin": {
+		"awais": "index.js"
+	},
+	"dependencies": {
+		"cli-welcome": "^2.2.0"
+	}
+}
