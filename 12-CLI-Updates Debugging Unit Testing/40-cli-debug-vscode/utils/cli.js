@@ -7,7 +7,7 @@ const flags = {
 		default: true,
 		desc: `Prints the ad`,
 	},
-	'no-ad': {
+	noAd: {
 		type: 'boolean',
 		default: false,
 		desc: `Does not print the ad`,
@@ -17,7 +17,7 @@ const flags = {
 		default: true,
 		desc: `Prints the bio`,
 	},
-	'no-bio': {
+	noBio: {
 		type: 'boolean',
 		default: false,
 		desc: `Does not print the bio`,
@@ -44,7 +44,7 @@ const flags = {
 		alias: 'p',
 		desc: `Prints blog posts`,
 	},
-	'no-posts': {
+	noPosts: {
 		type: 'boolean',
 		default: false,
 		desc: `Do not print the posts`,
@@ -54,7 +54,7 @@ const flags = {
 		default: true,
 		desc: `Prints social links`,
 	},
-	'no-social': {
+	noSocial: {
 		type: 'boolean',
 		default: false,
 		desc: `Does not print the social info`,

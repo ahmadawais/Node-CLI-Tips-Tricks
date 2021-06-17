@@ -17,7 +17,7 @@
 		"cli-strip-html": "^1.0.1",
 		"cli-welcome": "^2.2.0",
 		"enquirer": "^2.3.6",
-		"meow": "^7.0.1",
+		"meow": "9.0.0",
 		"ora": "^4.0.4"
 	},
 	"keywords": [

@@ -30,7 +30,7 @@
 		"cli-meow-help": "^2.0.1",
 		"cli-welcome": "^2.2.1",
 		"figlet": "^1.5.0",
-		"meow": "^7.0.1",
+		"meow": "9.0.0",
 		"progress-estimator": "^0.3.0"
 	},
 	"devDependencies": {
