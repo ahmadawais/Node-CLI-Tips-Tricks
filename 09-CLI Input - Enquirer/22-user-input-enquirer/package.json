@@ -18,7 +18,7 @@
 		"cli-welcome": "^2.2.0",
 		"enquirer": "^2.3.6",
 		"meow": "9.0.0",
-		"ora": "^4.0.4"
+		"ora": "5.4.1"
 	},
 	"keywords": [
 		"ahmad awais",
