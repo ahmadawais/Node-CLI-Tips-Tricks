@@ -1,9 +1,13 @@
-const fs = require('fs');
+import { statSync } from 'node:fs';
 
-function getFilesizeInBytes(filename) {
-	const stats = fs.statSync(filename);
+export default function getFilesizeInBytes(filename) {
+	const stats = statSync(filename);
 	const fileSizeInBytes = stats['size'];
 	return fileSizeInBytes;
 }
 
-console.log(getFilesizeInBytes(`${process.cwd()}/01-nodejs/index.js`), `bytes`);
+try {
+	console.log(getFilesizeInBytes(`${process.cwd()}/index.js`), `bytes`);
+} catch (error) {
+	console.log('erro')
+}
